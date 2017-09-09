@@ -34,19 +34,19 @@
 			<input type="text" name="tri3" id="tri3">
 			<br>
 			<p>Concepto</p>
-			<textarea rows="5" cols="80" id="conce"></textarea>
+			<textarea rows="5" cols="80" id="conce" name="conce"></textarea>
 			<br>
 			<p>Concepto 2</p>
-			<textarea rows="5" cols="80" id="conce2"></textarea>
+			<textarea rows="5" cols="80" id="conce2" name="conce2"></textarea>
 			<br>
 			<p>Concepto 3</p>
-			<textarea rows="5" cols="80" id="conce3"></textarea>
+			<textarea rows="5" cols="80" id="conce3" name="conce3"></textarea>
 			<br>
 			<p>Concepto 4</p>
-			<textarea rows="5" cols="80" id="conce4"></textarea>
+			<textarea rows="5" cols="80" id="conce4" name="conce4"></textarea>
 			<br>
 			<p>Concepto 5</p>
-			<textarea rows="5" cols="80" id="conce5"></textarea>
+			<textarea rows="5" cols="80" id="conce5" name="conce5"></textarea>
 			<br>
 			<input type="submit" name="Guardar" value="Guardar">
 		</form>
