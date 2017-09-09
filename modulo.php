@@ -7,7 +7,7 @@
 	$iva = $_POST['iva'];
 	$tri = $_POST['tri'];
 	$tri2 = $_POST['tri2'];
-	$tri3 = $_POST['tri3']:
+	$tri3 = $_POST['tri3'];
 	$conce = $_POST['conce'];
 	$conce2 = $_POST['conce2'];
 	$conce3 = $_POST['conce3'];
@@ -17,7 +17,7 @@
 	//$con=mysqli_connect("localhost", "root", "") or die("error al establecer la conexion");
 	//$db=mysqli_select_db("factura", $con);
 
-	$file = fopen("factura". $cliente . ".ini", "a");
-	fwrite($file, "[Factura 1] \r\n fecha: ". $fecha . "\r\n empresa: ". $empresa . "\r\n cliente: ". $cliente . "\r\n total: ". $total . "\r\n sub total: ". $sub . "\r\n iva: ". $iva. "\r\n triple: ". $tri . "\r\n $concepto: ". $conce . "\r\n");
+	$file = fopen("factura_". $cliente . ".ini", "a");
+	fwrite($file, "[Factura 1] \r\n fecha: ". $fecha . "\r\n empresa: ". $empresa . "\r\n cliente: ". $cliente . "\r\n total: ". $total . "\r\n sub total: ". $sub . "\r\n iva: ". $iva. "\r\n triple: ". $tri . "\r\n concepto: ". $conce . "\r\n");
 	fclose($file);
 ?>
